@@ -53,7 +53,7 @@ export default function App() {
   return (
     <div className="min-h-screen bg-slate-50 p-6">
       <div className="max-w-3xl mx-auto">
-        <h1 className="text-3xl font-bold mb-4">🏦 SAMPATH VANGI </h1>
+        <h1 className="text-3xl font-bold mb-4">🏦 SAMPATH BANK </h1>
         <BankAccountForm addAccount={addAccount} />
         <BankAccountList accounts={accounts} updateBalance={updateBalance} removeAccount={removeAccount} />
       </div>
